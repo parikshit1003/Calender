@@ -1,0 +1,166 @@
+
+:root {
+  --elementDark: #17594A;
+  --elementLight: #9df0c9;
+  --elementShade: #2d816e;
+}
+
+#Generate{
+  background-color: var(--elementDark);
+  color: white;
+  border-width: 0;
+  height: 45px;
+  width: 300px;
+  font-size: 30px;
+  top: 85%;
+  left: 2%;
+  position: fixed;
+  border-radius: 15px;
+}
+
+#Generate:hover{
+  background-color: var(--elementShade);
+}
+
+#Generate:active{
+  background-color: var(--elementDark);
+  transform: scale(1.05);
+}
+
+#input-year{
+  border: 3px solid var(--elementDark);
+  box-sizing: border-box;
+  color: var(--elementDark);
+  text-align: center;
+  font-size: 60px;
+  height: 90px;
+  width: 300px;
+  top: 65%;
+  left: 2%;
+  position: fixed;
+  border-radius: 15px;
+}
+
+#prev{
+  background-color: var(--elementDark);
+  border-width: 0;
+  color: white;
+  height: 50px;
+  width: 50px;
+  font-size: 30px;
+  top: 28%;
+  left: 2%;
+  position: fixed;
+  border-radius: 10px;
+}
+
+#prev:active{
+  transform: scale(1.05);
+}
+
+#next{
+  background-color: var(--elementDark);
+  border-width: 0;
+  color: white;
+  height: 50px;
+  width: 50px;
+  font-size: 30px;
+  top: 28%;
+  left: 18%;
+  position: fixed;
+  border-radius: 10px;
+}
+
+#next:active{
+  transform: scale(1.05);
+}
+
+#month{
+  color: var(--elementDark);
+  font-size: 60px;
+  font-family: sans-serif;
+  position: fixed;
+  left: 8%;
+  top: 20%;
+}
+
+.Block{
+  background-color: var(--elementLight);
+  height: 80px;
+  width: 80px;
+  font-size: 30px;
+  text-align: center;
+  color: var(--elementDark);
+  font-family: sans-serif;
+  position: absolute;
+  top: 200px;
+  left: 40px;
+  border-radius: 15px;
+}
+
+.BlockDark{
+  background-color: var(--elementDark);
+  height: 80px;
+  width: 80px;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  position: absolute;
+  top: 200px;
+  left: 40px;
+  border-radius: 15px;
+}
+
+.arrow-left{
+  width: 12px;
+  height: 12px;
+  border-left: 4px solid white;
+  border-top: 4px solid white;
+  transform: rotate(-45deg);
+  border-radius: 2px;
+  margin: auto;
+}
+
+.arrow-right{
+  width: 12px;
+  height: 12px;
+  border-left: 4px solid white;
+  border-top: 4px solid white;
+  transform: rotate(135deg);
+  border-radius: 2px;
+  margin: auto;
+}
+
+#tx{
+  color: var(--elementDark);
+  font-size: 65px;
+  font-family: sans-serif;
+  position: fixed;
+}
+
+#tx1{
+  color: var(--elementDark);
+  font-size: 65px;
+  font-family: sans-serif;
+  position: fixed;
+  left: 80%
+}
+
+#year-value{
+  color: var(--elementDark);
+  font-size: 130px;
+  font-family: sans-serif;
+  position: fixed;
+  left: 80%;
+  top: 5%;
+}
+
+#instruction{
+  color: var(--elementDark);
+  font-size: 15px;
+  font-family: sans-serif;
+  position: fixed;
+  top: 77%;
+  left: 2%;
+}
